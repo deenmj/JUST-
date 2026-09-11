@@ -49,11 +49,17 @@
 
 
 
-const numbers = [12, 5, 22, 7, 30, 9, 18];
-let high = numbers[0];
-for(let i = 0; i < numbers.length; i++){
-    if(numbers[i]%2 ===0)
-        if (numbers[i] > high)
-           high = numbers[i]
-}
-console.log(high);
+//const numbers = [12, 5, 22, 7, 30, 9, 18];
+//let high = numbers[0];
+//for(let i = 0; i < numbers.length; i++){
+//    if(numbers[i]%2 ===0)
+//        if (numbers[i] > high)
+//           high = numbers[i]
+//}
+//console.log(high);
+
+
+
+const prices = [2500, 4500, 1200, 8000, 3200];
+const discounts = [500, 1000, 200, 1500, 700];
+
